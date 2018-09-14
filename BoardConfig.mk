@@ -25,7 +25,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/gaga/include
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/gaga/bluetooth
 
-TARGET_KERNEL_CONFIG := fusion3_gaga_kddi_defconfig
+TARGET_KERNEL_CONFIG := fusion3_gaga_defconfig
 
 # Healthd
 BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl/brightness

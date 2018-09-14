@@ -22,7 +22,7 @@ lib/hw/nfc.msm8960.so
 lib/libaudcal.so
 lib/libcald_server.so
 lib/liboemcamera.so
+vendor/camera/APT00YP1.dat
 vendor/camera/flash.dat
-vendor/camera/LGI02BN0_IMX132.dat
 vendor/camera/product.dat
-vendor/camera/SEM02BN0_IMX132.dat
+vendor/camera/STW00YP1.dat

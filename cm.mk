@@ -1,4 +1,4 @@
-$(call inherit-product, device/sony/yuga/full_gaga.mk)
+$(call inherit-product, device/sony/gaga/full_gaga.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)

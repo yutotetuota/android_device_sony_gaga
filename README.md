@@ -1,2 +1,2 @@
-android_device_sony_yuga
+android_device_sony_gaga
 ========================

@@ -28,12 +28,12 @@ TARGET_SCREEN_WIDTH := 1080
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from yuga device
-$(call inherit-product, device/sony/yuga/yuga.mk)
+# Inherit from gaga device
+$(call inherit-product, device/sony/gaga/gaga.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_yuga
-PRODUCT_DEVICE := yuga
+PRODUCT_NAME := full_gaga
+PRODUCT_DEVICE := gaga
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_MODEL := Xperia Z
+PRODUCT_MODEL := SOL22

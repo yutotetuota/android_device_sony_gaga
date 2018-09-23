@@ -16,16 +16,16 @@
 include device/sony/fusion3-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/sony/yuga/BoardConfigVendor.mk
+-include vendor/sony/gaga/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := C6602,C6603,C6606,yuga
+TARGET_OTA_ASSERT_DEVICE := SOL22,gaga
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/yuga/include
+TARGET_SPECIFIC_HEADER_PATH += device/sony/gaga/include
 
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/yuga/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/gaga/bluetooth
 
-TARGET_KERNEL_CONFIG := cm_fusion3_yuga_defconfig
+TARGET_KERNEL_CONFIG := fusion3_gaga_kddi_defconfig
 
 # Healthd
 BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl/brightness
@@ -38,4 +38,4 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x01400000
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2147483648
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12828261888
 
-BOARD_HARDWARE_CLASS += device/sony/yuga/cmhw
+BOARD_HARDWARE_CLASS += device/sony/gaga/cmhw
